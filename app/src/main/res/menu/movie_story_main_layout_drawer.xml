@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/movie_main"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="홈으로" />
+        <item
+            android:id="@+id/movie_estimate"
+            android:icon="@drawable/ic_star_rate_black_18dp"
+            android:title="영화 평가하기" />
+        <item
+            android:id="@+id/movie_recommand"
+            android:icon="@drawable/ic_lightbulb_outline_black_24dp"
+            android:title="영화 추천받기" />
+        <item
+            android:id="@+id/movie_ranking"
+            android:icon="@drawable/ic_looks_one_black_18dp"
+            android:title="박스오피스 순위" />
+        <item
+            android:id="@+id/movie_new"
+            android:icon="@drawable/ic_fiber_new_black_18dp"
+            android:title="최신 영화" />
+        <item
+            android:id="@+id/movie_search"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="영화 검색" />
+        <item
+            android:id="@+id/movie_setting"
+            android:icon="@drawable/ic_build_black_18dp"
+            android:title="설정" />
+    </group>
+
+</menu>
